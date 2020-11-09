@@ -57,77 +57,36 @@ $activity = new activity();
                                             <th>Action</th>
                                         </tr>
                                         <tr>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
-                                            <th></th>
+                                            <th class="brigloo_data_filter"></th>
+                                            <th class="brigloo_data_filter"></th>
+                                            <th class="brigloo_data_filter"></th>
+                                            <th class="brigloo_data_filter"></th>
                                             <th></th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>Tiger Nixon</td>
-                                            <td>System Architect</td>
-                                            <td>Edinburgh</td>
-                                            <td>61</td>
-                                            <td>2011/04/25</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Garrett Winters</td>
-                                            <td>Accountant</td>
-                                            <td>Tokyo</td>
-                                            <td>63</td>
-                                            <td>2011/07/25</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Jonas Alexander</td>
-                                            <td>Developer</td>
-                                            <td>San Francisco</td>
-                                            <td>30</td>
-                                            <td>2010/07/14</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Shad Decker</td>
-                                            <td>Regional Director</td>
-                                            <td>Edinburgh</td>
-                                            <td>51</td>
-                                            <td>2008/11/13</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Michael Bruce</td>
-                                            <td>Javascript Developer</td>
-                                            <td>Singapore</td>
-                                            <td>29</td>
-                                            <td>2011/06/27</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Airi Satou</td>
-                                            <td>Accountant</td>
-                                            <td>Tokyo</td>
-                                            <td>33</td>
-                                            <td>2008/11/28</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Brielle Williamson</td>
-                                            <td>Integration Specialist</td>
-                                            <td>New York</td>
-                                            <td>61</td>
-                                            <td>2012/12/02</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Herrod Chandler</td>
-                                            <td>Sales Assistant</td>
-                                            <td>San Francisco</td>
-                                            <td>59</td>
-                                            <td>2012/08/06</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Donna Snider</td>
-                                            <td>Customer Support</td>
-                                            <td>New York</td>
-                                            <td>27</td>
-                                            <td>2011/01/25</td>
-                                        </tr>
+                                        <?php
+                                        global $mydb;
+                                        $all_driver_pickup= $pickup->get_driver_pickup_amt_list();
+                                        if( isset( $all_driver_pickup ) && $all_driver_pickup != '' || $all_driver_pickup != 0 ){
+                                            if( isset( $all_driver_pickup['in_job_id'] ) ){
+                                                $all_driver_pickup = array( $all_driver_pickup );
+                                            }
+                                            foreach( $all_driver_pickup as $key => $value ){
+                                                $driver_name = $user->get_user_data_by_key( $value['in_driver_id'], 'st_first_name' ); 
+                                                $in_license_no= $user->get_driver_data_by_key( $value['in_driver_id'], 'in_license_no' ); 
+                                            ?>
+                                            <tr class="job_<?php echo $value['in_job_id']; ?>">
+                                                <td><?php echo $driver_name;?></td>
+                                                <td><?php echo $value['location_count'];?></td>
+                                                <td class="pickup_date_range"><?php echo date( "m-d-Y", strtotime( $value['dt_pickup'] ) );?></td>
+                                                <td class="pickup_amount"><?php echo isset( $value['fl_driver_pickup_amt'] ) && $value['fl_driver_pickup_amt'] > 0 ?  " $" . $value['fl_driver_pickup_amt'] : 0; ?></td>
+                                                <td><button class="btn btn-success view_driver_detail action" name="view_driver_detail">View</button></td>
+                                            </tr>
+                                            <?php
+                                            }
+                                        }
+                                        ?>
                                     </tbody>
                                     <tfoot>
                                         <tr>
@@ -171,7 +130,6 @@ include_once FL_LOGIN_FOOTER;
                 this.api().columns().every( function () {
                     var column = this;
                     var select = $('<select><option value=""></option></select>')
-                        .appendTo( $(column.header()).empty() )
                         .on( 'change', function () {
                             var val = $.fn.dataTable.util.escapeRegex(
                                 $(this).val()
@@ -181,12 +139,21 @@ include_once FL_LOGIN_FOOTER;
                                 .search( val ? '^'+val+'$' : '', true, false )
                                 .draw();
                         } );
+
+                        if( jQuery( column.header() ).hasClass( "brigloo_data_filter" ) ){
+                            jQuery( column.header() ).append( select );
+                        }
     
                     column.data().unique().sort().each( function ( d, j ) {
                         select.append( '<option value="'+d+'">'+d+'</option>' )
                     });
                 });
-            }
+            },
+            "deferRender": true,
+            "columnDefs": [ 
+                { targets: 'action', orderable: false },
+                { targets: 'action', searchable: false }
+            ]
         });
 
     });
