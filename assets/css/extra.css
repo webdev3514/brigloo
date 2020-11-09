@@ -1,0 +1,151 @@
+#add_pickup_location,#pickup_job_assign,#add_co_pickup_location{
+    z-index: 9;
+}
+.input-err{
+    color:red;
+}
+div#location {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 767px){
+
+.send_change_password_link {
+    margin-bottom: 10px;
+}
+.location-data {
+    overflow-x: scroll;
+    width: 100%;
+    float: none;
+    max-width: 100%;
+    display: inline-block;
+}
+
+#html_template_wrapper #html_template_filter label {
+    float: none;
+}
+
+#html_template_wrapper #html_template_length, 
+#html_template_wrapper #html_template_filter {
+    width: 100%;
+    float: none;
+    padding: 0;
+    display: block;
+    margin: 5px 0;
+}
+
+}
+
+.show {
+    pointer-events: none;
+    z-index: 9999;
+    background: url('../../images/loader_last.gif') 50% 50% no-repeat rgb(249,249,249);
+    display: none;
+}
+.loader.show {
+    display: block;
+}
+#sortable1,#fixed_bank{ 
+    width:100%;
+    padding: 10px;
+}
+#sortable1 li,#fixed_bank li{ 
+    width:100%;
+    background: #e8e2e2;
+    margin: 10px 0px;
+    cursor: pointer;
+    padding:10px;
+    list-style: none;
+}
+#sortable1 li:hover,#fixed_bank li:hover{ 
+    width:100%;
+    background:#222;
+    opacity:0.5;
+    color:#fff;
+    margin:10px 0px;
+    cursor:pointer;
+    padding:10px;
+}
+#bank_selector,#bank_selector1{ 
+    width:100%;
+    padding: 10px;
+}
+#bank_selector li,#bank_selector1 li{ 
+    width:100%;
+    background: #e8e2e2;
+    margin: 10px 0px;
+    cursor: pointer;
+    padding:10px;
+    list-style: none;
+}
+#bank_selector li:hover,#bank_selector1 li:hover{ 
+    width:100%;
+    background:#222;
+    opacity:0.5;
+    color:#fff;
+    margin:10px 0px;
+    cursor:pointer;
+    padding:10px;
+}
+.ui-state-highlight { height: 3em; line-height: 1.2em; }
+input#pickup_store_id {
+    color: #000;
+}
+.message-display-section img {
+    width: 25px;
+    height: 25px;
+}
+div#forgot_password .modal-backdrop {
+    z-index: 0;
+}
+div#forgot_password {
+    z-index: 22222;
+}
+.modal-header button.close {
+    height: 30px;
+    width: 30px;
+    background-color: #000;
+    opacity: 1;
+    min-width: auto;
+    text-shadow: none;
+    color: #fff;
+}
+a#forgot_pwd {    
+    margin-bottom: 20px;    
+    display: block;    
+    font-size: 18px;
+}
+.input-group-addon {    
+    display: none;
+}
+#frm_forgot_password .input-group {    
+    display: block;
+}
+#forgot_password .title {   
+    margin-bottom: 10px;
+    
+}
+
+form .form-control{
+    box-shadow : none;
+}
+form .form-control {    
+    position: relative;    
+    height: auto;
+    
+}
+form .form-control:after 
+{    
+    content: "";    
+    display: block;    
+    clear: both;
+    
+}
+.td-width {
+   width:10%;
+}
+.change_incoming{
+    padding-top:10px;
+}

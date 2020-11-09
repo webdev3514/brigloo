@@ -1,0 +1,153 @@
+[27-Jul-2020 05:09:47 America/Chicago] PHP Warning:  include_once(PL_MAILER/src/Exception.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:09:47 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER/src/Exception.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:09:47 America/Chicago] PHP Warning:  include_once(PL_MAILER/src/PHPMailer.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 3
+[27-Jul-2020 05:09:47 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER/src/PHPMailer.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 3
+[27-Jul-2020 05:09:47 America/Chicago] PHP Warning:  include_once(PL_MAILER/src/SMTP.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 4
+[27-Jul-2020 05:09:47 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER/src/SMTP.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 4
+[27-Jul-2020 05:09:47 America/Chicago] PHP Fatal error:  Class 'PHPMailer' not found in /home3/brigloo/public_html/core/test.php on line 8
+[27-Jul-2020 05:25:02 America/Chicago] PHP Warning:  include_once(PL_MAILER/src/Exception.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:25:02 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER/src/Exception.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:25:02 America/Chicago] PHP Warning:  include_once(PL_MAILER/src/PHPMailer.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 3
+[27-Jul-2020 05:25:02 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER/src/PHPMailer.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 3
+[27-Jul-2020 05:25:02 America/Chicago] PHP Warning:  include_once(PL_MAILER/src/SMTP.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 4
+[27-Jul-2020 05:25:02 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER/src/SMTP.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 4
+[27-Jul-2020 05:25:02 America/Chicago] PHP Fatal error:  Class 'PHPMailer' not found in /home3/brigloo/public_html/core/test.php on line 8
+[27-Jul-2020 05:25:24 America/Chicago] PHP Warning:  include_once(PL_MAILER/src/Exception.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:25:24 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER/src/Exception.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:25:24 America/Chicago] PHP Warning:  include_once(PL_MAILER/src/PHPMailer.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 3
+[27-Jul-2020 05:25:24 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER/src/PHPMailer.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 3
+[27-Jul-2020 05:25:24 America/Chicago] PHP Warning:  include_once(PL_MAILER/src/SMTP.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 4
+[27-Jul-2020 05:25:24 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER/src/SMTP.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 4
+[27-Jul-2020 05:25:24 America/Chicago] PHP Fatal error:  Class 'PHPMailer' not found in /home3/brigloo/public_html/core/test.php on line 8
+[27-Jul-2020 05:26:50 America/Chicago] PHP Warning:  include_once(PL_MAILER/src/Exception.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:26:50 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER/src/Exception.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:26:50 America/Chicago] PHP Warning:  include_once(PL_MAILER/src/PHPMailer.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 5
+[27-Jul-2020 05:26:50 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER/src/PHPMailer.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 5
+[27-Jul-2020 05:26:50 America/Chicago] PHP Warning:  include_once(PL_MAILER/src/SMTP.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 6
+[27-Jul-2020 05:26:50 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER/src/SMTP.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 6
+[27-Jul-2020 05:26:50 America/Chicago] PHP Fatal error:  Class 'PHPMailer' not found in /home3/brigloo/public_html/core/test.php on line 10
+[27-Jul-2020 05:27:10 America/Chicago] PHP Warning:  include_once(PL_MAILER/src/Exception.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:27:10 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER/src/Exception.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:27:10 America/Chicago] PHP Warning:  include_once(PL_MAILER/src/PHPMailer.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 5
+[27-Jul-2020 05:27:10 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER/src/PHPMailer.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 5
+[27-Jul-2020 05:27:10 America/Chicago] PHP Warning:  include_once(PL_MAILER/src/SMTP.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 6
+[27-Jul-2020 05:27:10 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER/src/SMTP.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 6
+[27-Jul-2020 05:27:10 America/Chicago] PHP Fatal error:  Class 'PHPMailer' not found in /home3/brigloo/public_html/core/test.php on line 10
+[27-Jul-2020 05:27:48 America/Chicago] PHP Warning:  include_once(PL_MAILER/src/Exception.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:27:48 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER/src/Exception.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:27:48 America/Chicago] PHP Warning:  include_once(PL_MAILER/src/PHPMailer.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 5
+[27-Jul-2020 05:27:48 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER/src/PHPMailer.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 5
+[27-Jul-2020 05:27:48 America/Chicago] PHP Warning:  include_once(PL_MAILER/src/SMTP.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 6
+[27-Jul-2020 05:27:48 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER/src/SMTP.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 6
+[27-Jul-2020 05:27:48 America/Chicago] PHP Fatal error:  Class 'PHPMailer' not found in /home3/brigloo/public_html/core/test.php on line 10
+[27-Jul-2020 05:29:06 America/Chicago] PHP Warning:  include(PL_MAILER/src/Exception.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:29:06 America/Chicago] PHP Warning:  include(PL_MAILER/src/Exception.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:29:06 America/Chicago] PHP Warning:  include(): Failed opening 'PL_MAILER/src/Exception.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:29:06 America/Chicago] PHP Warning:  include_once(PL_MAILER/src/PHPMailer.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 4
+[27-Jul-2020 05:29:06 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER/src/PHPMailer.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 4
+[27-Jul-2020 05:29:06 America/Chicago] PHP Warning:  include_once(PL_MAILER/src/SMTP.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 5
+[27-Jul-2020 05:29:06 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER/src/SMTP.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 5
+[27-Jul-2020 05:29:06 America/Chicago] PHP Fatal error:  Class 'PHPMailer' not found in /home3/brigloo/public_html/core/test.php on line 9
+[27-Jul-2020 05:29:51 America/Chicago] PHP Warning:  require(PL_MAILER/src/Exception.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:29:51 America/Chicago] PHP Warning:  require(PL_MAILER/src/Exception.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:29:51 America/Chicago] PHP Fatal error:  require(): Failed opening required 'PL_MAILER/src/Exception.php' (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:30:14 America/Chicago] PHP Warning:  require(PL_MAILER/src/Exception.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:30:14 America/Chicago] PHP Warning:  require(PL_MAILER/src/Exception.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:30:14 America/Chicago] PHP Fatal error:  require(): Failed opening required 'PL_MAILER/src/Exception.php' (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:31:46 America/Chicago] PHP Warning:  require(PL_MAILER/src/Exception.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:31:46 America/Chicago] PHP Warning:  require(PL_MAILER/src/Exception.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:31:46 America/Chicago] PHP Fatal error:  require(): Failed opening required 'PL_MAILER/src/Exception.php' (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:31:51 America/Chicago] PHP Warning:  require(PL_MAILER/src/Exception.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:31:51 America/Chicago] PHP Warning:  require(PL_MAILER/src/Exception.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:31:51 America/Chicago] PHP Fatal error:  require(): Failed opening required 'PL_MAILER/src/Exception.php' (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:33:57 America/Chicago] PHP Warning:  require(PL_MAILER/src/Exception.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:33:57 America/Chicago] PHP Warning:  require(PL_MAILER/src/Exception.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:33:57 America/Chicago] PHP Fatal error:  require(): Failed opening required 'PL_MAILER/src/Exception.php' (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:36:00 America/Chicago] PHP Warning:  include(PL_MAILER/src/Exception.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:36:00 America/Chicago] PHP Warning:  include(PL_MAILER/src/Exception.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:36:00 America/Chicago] PHP Warning:  include(): Failed opening 'PL_MAILER/src/Exception.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:36:00 America/Chicago] PHP Warning:  include(PL_MAILER/src/PHPMailer.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 3
+[27-Jul-2020 05:36:00 America/Chicago] PHP Warning:  include(PL_MAILER/src/PHPMailer.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 3
+[27-Jul-2020 05:36:00 America/Chicago] PHP Warning:  include(): Failed opening 'PL_MAILER/src/PHPMailer.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 3
+[27-Jul-2020 05:36:00 America/Chicago] PHP Warning:  include(PL_MAILER/src/SMTP.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 4
+[27-Jul-2020 05:36:00 America/Chicago] PHP Warning:  include(PL_MAILER/src/SMTP.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 4
+[27-Jul-2020 05:36:00 America/Chicago] PHP Warning:  include(): Failed opening 'PL_MAILER/src/SMTP.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 4
+[27-Jul-2020 05:36:00 America/Chicago] PHP Fatal error:  Class 'PHPMailer' not found in /home3/brigloo/public_html/core/test.php on line 8
+[27-Jul-2020 05:45:31 America/Chicago] PHP Warning:  require(PL_MAILER_NEW/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:45:31 America/Chicago] PHP Warning:  require(PL_MAILER_NEW/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:45:31 America/Chicago] PHP Fatal error:  require(): Failed opening required 'PL_MAILER_NEW/PHPMailerAutoload.php' (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:48:19 America/Chicago] PHP Warning:  require(PL_MAILER_NEWPHPMailerAutoload.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:48:19 America/Chicago] PHP Warning:  require(PL_MAILER_NEWPHPMailerAutoload.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:48:19 America/Chicago] PHP Fatal error:  require(): Failed opening required 'PL_MAILER_NEWPHPMailerAutoload.php' (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:49:07 America/Chicago] PHP Warning:  require(PL_MAILER_NEW/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:49:07 America/Chicago] PHP Warning:  require(PL_MAILER_NEW/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:49:07 America/Chicago] PHP Fatal error:  require(): Failed opening required 'PL_MAILER_NEW/PHPMailerAutoload.php' (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:50:15 America/Chicago] PHP Warning:  require(FL_COMMON): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:50:15 America/Chicago] PHP Warning:  require(FL_COMMON): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:50:15 America/Chicago] PHP Fatal error:  require(): Failed opening required 'FL_COMMON' (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:50:50 America/Chicago] PHP Warning:  include_once(FL_COMMON): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:50:50 America/Chicago] PHP Warning:  include_once(): Failed opening 'FL_COMMON' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:50:50 America/Chicago] PHP Warning:  include_once(PL_MAILER_NEW/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 3
+[27-Jul-2020 05:50:50 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER_NEW/PHPMailerAutoload.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 3
+[27-Jul-2020 05:50:50 America/Chicago] PHP Fatal error:  Class 'PHPMailer' not found in /home3/brigloo/public_html/core/test.php on line 8
+[27-Jul-2020 05:51:42 America/Chicago] PHP Warning:  include_once(FL_COMMON): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:51:42 America/Chicago] PHP Warning:  include_once(): Failed opening 'FL_COMMON' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:51:42 America/Chicago] PHP Warning:  include_once(PL_MAILER_NEW/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 3
+[27-Jul-2020 05:51:42 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER_NEW/PHPMailerAutoload.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 3
+[27-Jul-2020 05:51:42 America/Chicago] PHP Fatal error:  Class 'PHPMailer' not found in /home3/brigloo/public_html/core/test.php on line 8
+[27-Jul-2020 05:53:57 America/Chicago] PHP Warning:  include_once(FL_COMMON): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:53:57 America/Chicago] PHP Warning:  include_once(): Failed opening 'FL_COMMON' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:53:57 America/Chicago] PHP Warning:  include_once(PL_MAILER_NEW/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 3
+[27-Jul-2020 05:53:57 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER_NEW/PHPMailerAutoload.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 3
+[27-Jul-2020 05:53:57 America/Chicago] PHP Fatal error:  Class 'PHPMailer' not found in /home3/brigloo/public_html/core/test.php on line 8
+[27-Jul-2020 05:54:25 America/Chicago] PHP Warning:  include_once(FL_COMMON): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:54:25 America/Chicago] PHP Warning:  include_once(): Failed opening 'FL_COMMON' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:54:25 America/Chicago] PHP Warning:  include_once(PL_MAILER_NEW/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 4
+[27-Jul-2020 05:54:25 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER_NEW/PHPMailerAutoload.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 4
+[27-Jul-2020 05:54:25 America/Chicago] PHP Fatal error:  Class 'PHPMailer' not found in /home3/brigloo/public_html/core/test.php on line 10
+[27-Jul-2020 05:56:28 America/Chicago] PHP Warning:  include_once(FL_COMMON): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:56:28 America/Chicago] PHP Warning:  include_once(): Failed opening 'FL_COMMON' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:56:28 America/Chicago] PHP Warning:  include_once(PL_MAILER_NEW/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 4
+[27-Jul-2020 05:56:28 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER_NEW/PHPMailerAutoload.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 4
+[27-Jul-2020 05:56:28 America/Chicago] PHP Fatal error:  Class 'PHPMailer' not found in /home3/brigloo/public_html/core/test.php on line 10
+[27-Jul-2020 05:56:32 America/Chicago] PHP Warning:  include_once(FL_COMMON): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:56:32 America/Chicago] PHP Warning:  include_once(): Failed opening 'FL_COMMON' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:56:32 America/Chicago] PHP Warning:  include_once(PL_MAILER_NEW/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 4
+[27-Jul-2020 05:56:32 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER_NEW/PHPMailerAutoload.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 4
+[27-Jul-2020 05:56:32 America/Chicago] PHP Fatal error:  Class 'PHPMailer' not found in /home3/brigloo/public_html/core/test.php on line 10
+[27-Jul-2020 05:57:17 America/Chicago] PHP Warning:  include_once(FL_COMMON): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:57:17 America/Chicago] PHP Warning:  include_once(): Failed opening 'FL_COMMON' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:57:17 America/Chicago] PHP Warning:  include_once(PL_MAILER_NEW/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 4
+[27-Jul-2020 05:57:17 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER_NEW/PHPMailerAutoload.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 4
+[27-Jul-2020 05:57:17 America/Chicago] PHP Fatal error:  Class 'PHPMailer' not found in /home3/brigloo/public_html/core/test.php on line 10
+[27-Jul-2020 05:58:57 America/Chicago] PHP Warning:  include_once(FL_COMMON): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:58:57 America/Chicago] PHP Warning:  include_once(): Failed opening 'FL_COMMON' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 05:58:57 America/Chicago] PHP Warning:  include_once(PL_MAILER_NEW/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 4
+[27-Jul-2020 05:58:57 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER_NEW/PHPMailerAutoload.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 4
+[27-Jul-2020 05:58:57 America/Chicago] PHP Fatal error:  Class 'PHPMailer' not found in /home3/brigloo/public_html/core/test.php on line 10
+[27-Jul-2020 06:01:51 America/Chicago] PHP Warning:  include_once(FL_COMMON): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 06:01:51 America/Chicago] PHP Warning:  include_once(): Failed opening 'FL_COMMON' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 06:01:51 America/Chicago] PHP Warning:  include_once(PL_MAILER_NEW/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 3
+[27-Jul-2020 06:01:51 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER_NEW/PHPMailerAutoload.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 3
+[27-Jul-2020 06:01:51 America/Chicago] PHP Fatal error:  Class 'PHPMailer' not found in /home3/brigloo/public_html/core/test.php on line 9
+[27-Jul-2020 06:01:54 America/Chicago] PHP Warning:  include_once(FL_COMMON): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 06:01:54 America/Chicago] PHP Warning:  include_once(): Failed opening 'FL_COMMON' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 06:01:54 America/Chicago] PHP Warning:  include_once(PL_MAILER_NEW/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 3
+[27-Jul-2020 06:01:54 America/Chicago] PHP Warning:  include_once(): Failed opening 'PL_MAILER_NEW/PHPMailerAutoload.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 3
+[27-Jul-2020 06:01:54 America/Chicago] PHP Fatal error:  Class 'PHPMailer' not found in /home3/brigloo/public_html/core/test.php on line 9
+[27-Jul-2020 06:02:33 America/Chicago] PHP Warning:  require_once(FL_COMMON_CONFIG): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 06:02:33 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'FL_COMMON_CONFIG' (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 06:05:06 America/Chicago] PHP Warning:  require_once(FL_COMMON_CONFIG): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 06:05:06 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'FL_COMMON_CONFIG' (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 06:07:23 America/Chicago] PHP Warning:  require_once(FL_COMMON_CONFIG): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 06:07:23 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'FL_COMMON_CONFIG' (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 06:07:27 America/Chicago] PHP Warning:  require_once(FL_COMMON_CONFIG): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 06:07:27 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'FL_COMMON_CONFIG' (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 06:15:35 America/Chicago] PHP Warning:  require_once(FL_COMMON_CONFIG): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 06:15:35 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'FL_COMMON_CONFIG' (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 06:16:25 America/Chicago] PHP Warning:  require_once(FL_COMMON_CONFIG): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 06:16:25 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'FL_COMMON_CONFIG' (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 06:16:29 America/Chicago] PHP Warning:  require_once(FL_COMMON_CONFIG): failed to open stream: No such file or directory in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 06:16:29 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'FL_COMMON_CONFIG' (include_path='.:/opt/php56/lib/php') in /home3/brigloo/public_html/core/test.php on line 2
+[27-Jul-2020 06:44:52 America/Chicago] PHP Fatal error:  Class 'PHPMailer\PHPMailer\PHPMailer' not found in /home3/brigloo/public_html/core/test.php on line 16
+[27-Jul-2020 06:50:05 America/Chicago] PHP Fatal error:  Class 'PHPMailer\PHPMailer\PHPMailer' not found in /home3/brigloo/public_html/core/test.php on line 16
