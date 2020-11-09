@@ -48,12 +48,18 @@ $activity = new activity();
                             <table id="example" class="display" style="width:100%">
                                 <thead>
                                     <tr>
-                                        <th>Name</th>
-                                        <th>Position</th>
-                                        <th>Office</th>
-                                        <th>Age</th>
-                                        <th>Start date</th>
-                                        <th>Salary</th>
+                                        <th>Diver Name</th>
+                                        <th>Number Of Routes Completed</th>
+                                        <th>Date Range</th>
+                                        <th>Total Time Amount</th>
+                                        <th>Action</th>
+                                    </tr>
+                                    <tr>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -63,7 +69,6 @@ $activity = new activity();
                                         <td>Edinburgh</td>
                                         <td>61</td>
                                         <td>2011/04/25</td>
-                                        <td>$320,800</td>
                                     </tr>
                                     <tr>
                                         <td>Garrett Winters</td>
@@ -71,7 +76,6 @@ $activity = new activity();
                                         <td>Tokyo</td>
                                         <td>63</td>
                                         <td>2011/07/25</td>
-                                        <td>$170,750</td>
                                     </tr>
                                     <tr>
                                         <td>Jonas Alexander</td>
@@ -79,7 +83,6 @@ $activity = new activity();
                                         <td>San Francisco</td>
                                         <td>30</td>
                                         <td>2010/07/14</td>
-                                        <td>$86,500</td>
                                     </tr>
                                     <tr>
                                         <td>Shad Decker</td>
@@ -87,7 +90,6 @@ $activity = new activity();
                                         <td>Edinburgh</td>
                                         <td>51</td>
                                         <td>2008/11/13</td>
-                                        <td>$183,000</td>
                                     </tr>
                                     <tr>
                                         <td>Michael Bruce</td>
@@ -95,7 +97,6 @@ $activity = new activity();
                                         <td>Singapore</td>
                                         <td>29</td>
                                         <td>2011/06/27</td>
-                                        <td>$183,000</td>
                                     </tr>
                                     <tr>
                                         <td>Airi Satou</td>
@@ -103,7 +104,6 @@ $activity = new activity();
                                         <td>Tokyo</td>
                                         <td>33</td>
                                         <td>2008/11/28</td>
-                                        <td>$162,700</td>
                                     </tr>
                                     <tr>
                                         <td>Brielle Williamson</td>
@@ -111,7 +111,6 @@ $activity = new activity();
                                         <td>New York</td>
                                         <td>61</td>
                                         <td>2012/12/02</td>
-                                        <td>$372,000</td>
                                     </tr>
                                     <tr>
                                         <td>Herrod Chandler</td>
@@ -119,7 +118,6 @@ $activity = new activity();
                                         <td>San Francisco</td>
                                         <td>59</td>
                                         <td>2012/08/06</td>
-                                        <td>$137,500</td>
                                     </tr>
                                     <tr>
                                         <td>Donna Snider</td>
@@ -127,17 +125,15 @@ $activity = new activity();
                                         <td>New York</td>
                                         <td>27</td>
                                         <td>2011/01/25</td>
-                                        <td>$112,000</td>
                                     </tr>
                                 </tbody>
                                 <tfoot>
                                     <tr>
-                                        <th>Name</th>
-                                        <th>Position</th>
-                                        <th>Office</th>
-                                        <th>Age</th>
-                                        <th>Start date</th>
-                                        <th>Salary</th>
+                                        <th>Diver Name</th>
+                                        <th>Number Of Routes Completed</th>
+                                        <th>Date Range</th>
+                                        <th>Total Time Amount</th>
+                                        <th>Action</th>
                                     </tr>
                                 </tfoot>
                             </table>
@@ -171,7 +167,7 @@ include_once FL_LOGIN_FOOTER;
                 this.api().columns().every( function () {
                     var column = this;
                     var select = $('<select><option value=""></option></select>')
-                        .appendTo( $(column.footer()).empty() )
+                        .appendTo( $(column.header()).empty() )
                         .on( 'change', function () {
                             var val = $.fn.dataTable.util.escapeRegex(
                                 $(this).val()
