@@ -67,7 +67,7 @@ $activity = new activity();
                         <div class="col-xs-12 col-sm-6 col-md-4">
                               <a href="<?php echo VW_ADMIN_DRIVER_PICKUP_AMT; ?>" class="center-block main-box">
                                   <span class="fa fa-dollar"></span>
-                                  <h4>Driver Pick UP Amount</h4>
+                                  <h4>Driver Completions</h4>
                               </a>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4">
@@ -93,6 +93,12 @@ $activity = new activity();
                                    <span class="fa fa-list-alt"></span>
                                    <h4>Activity Logs</h4>
                               </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <a href="<?php echo VW_ADMIN_DRIVER_LIST; ?>" class="center-block main-box">
+                                <span class="fa fa-bars"></span>
+                                <h4>Driver List</h4>
+                            </a>
                         </div> 
                     </div>
                 </div>

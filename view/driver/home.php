@@ -133,7 +133,7 @@ $admin_user_reject_attempt = $user->get_user_meta( $user_id, 'admin_user_reject_
                                 <div class="col-xs-12 col-sm-6 col-md-4">
                                     <a href="<?php echo VW_DRIVER_PICKUP_AMOUNT; ?>" class="center-block main-box">
                                         <span class="fa fa-dollar"></span>
-                                        <h4>Driver Pick UP Amount</h4>
+                                        <h4>Driver Completions</h4>
                                     </a>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4">

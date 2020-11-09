@@ -1,5 +1,5 @@
 <?php
-define( 'BASE_DIR', '' );
+define( 'BASE_DIR', 'brigloo' );
 define( 'SITE_NAME', 'Cop Express' );
 define( 'CONFIG_DIR', 'config' );
 define( 'DIR_SEPERATOR', '/' );

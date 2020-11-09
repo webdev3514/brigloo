@@ -285,7 +285,7 @@ input[type=radio] {
 }
 .dataTable tr:first-child, .dataTable tr:first-child th {
     background: #0071d1;
-    color: #fff;
+    color: #000;
 }
 .dataTable {
     margin-top: 15px;

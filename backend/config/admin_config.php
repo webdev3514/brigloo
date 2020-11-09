@@ -1,5 +1,5 @@
 <?php
-define( 'BASE_DIR_ADMIN', '' );
+define( 'BASE_DIR_ADMIN', 'brigloo' );
 require_once $_SERVER['DOCUMENT_ROOT']. '/' . BASE_DIR_ADMIN . '/config/config.php';
 
 define( 'ADMIN_VIEW_DIR', 'views' );
@@ -19,5 +19,6 @@ define( 'VW_ADMIN_GENERAL_SETTING', BASE_URL . BACKEND_DIR . DIR_SEPERATOR . ADM
 define( 'VW_ADMIN_ACTIVITY_LOG', BASE_URL . BACKEND_DIR . DIR_SEPERATOR . ADMIN_VIEW_DIR . DIR_SEPERATOR . 'activity_logs.php' );
 define( 'VW_ADMIN_REPORT', BASE_URL . BACKEND_DIR . DIR_SEPERATOR . ADMIN_VIEW_DIR . DIR_SEPERATOR . 'admin_report.php' );
 define( 'VW_ADMIN_INTERRUPT_JOB', BASE_URL . BACKEND_DIR . DIR_SEPERATOR . ADMIN_VIEW_DIR . DIR_SEPERATOR . 'interrupt_jobs.php' );
+define( 'VW_ADMIN_DRIVER_LIST', BASE_URL . BACKEND_DIR . DIR_SEPERATOR . ADMIN_VIEW_DIR . DIR_SEPERATOR . 'driver_list_report.php' );
 
 

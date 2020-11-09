@@ -26,8 +26,8 @@ define( 'IMAGES_PATH', BASE_PATH . IMAGES_DIR . DIR_SEPERATOR );
 
 //Database
 define( 'HOSTNAME', 'localhost' );
-define( 'DBUSERNAME', 'brigloo_brigloo' );
-define( 'DBPASSWORD', 'brigloo123*' );
+define( 'DBUSERNAME', 'root' );
+define( 'DBPASSWORD', '' );
 define( 'DBNAME', 'brigloo_brigloo' );
 define( 'DBPREFIX', 'brigloo_' );
 

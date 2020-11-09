@@ -160,7 +160,7 @@ $settings = new settings();
                                                     $driver_pickup_amount = $settings->get_settings( 'driver_pickup_amount' , TRUE );
                                                 ?>
                                                 <div class="form-group">
-                                                    <label class="col-md-3">Driver Pick UP amount:</label>
+                                                    <label class="col-md-3">Driver Completions:</label>
                                                     <div class="col-md-9">
                                                         <input class="form-control" type="number" id="txt_driver_pickup_amt" value="<?php echo isset( $driver_pickup_amount ) && $driver_pickup_amount != '' || $driver_pickup_amount != 0 ? $driver_pickup_amount : 0; ?>"  name="other_settings[driver_pickup_amount]" >
                                                     </div>

@@ -34,7 +34,7 @@ $user_id = isset( $_SESSION['user_id'] ) &&  $_SESSION['user_id']  != '' ? $_SES
                     <!-- START DATATABLE EXPORT -->
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Driver Pick UP Amount</h3>
+                        <h3 class="panel-title">Driver Completions</h3>
                     </div>
                     <div class="panel-body">
                         <div class="table-responsive">

@@ -127,7 +127,7 @@ $location = new location();
                         <a href="<?php echo VW_ADMIN_PICK_LIST; ?>"  class="<?php if (basename( $_SERVER["PHP_SELF"]) == 'pickup_list.php'){ echo 'login-active'; }?>"><span class="fa fa-location-arrow"></span><span class="xn-text">Pick Up List ( <?php echo $count_unassign_pickup; ?> )</span></a>
                     </li>
                     <li>
-                        <a href="<?php echo VW_ADMIN_DRIVER_PICKUP_AMT; ?>"  class="<?php if (basename( $_SERVER["PHP_SELF"]) == 'driver_pickup_amt.php'){ echo 'login-active'; }?>"><span class="fa fa-dollar"></span><span class="xn-text">Driver Pick Up Amount</span></a>
+                        <a href="<?php echo VW_ADMIN_DRIVER_PICKUP_AMT; ?>"  class="<?php if (basename( $_SERVER["PHP_SELF"]) == 'driver_pickup_amt.php'){ echo 'login-active'; }?>"><span class="fa fa-dollar"></span><span class="xn-text">Driver Completions</span></a>
                     </li>
                     <li>
                         <a href="<?php echo VW_ADMIN_GENERAL_SETTING; ?>"  class="<?php if (basename( $_SERVER["PHP_SELF"]) == 'general_setting.php'){ echo 'login-active'; }?>"><span class="fa fa-cog"></span><span class="xn-text">Settings</span></a>
@@ -139,7 +139,10 @@ $location = new location();
                         <a href="<?php echo VW_ADMIN_REPORT; ?>"  class="<?php if (basename( $_SERVER["PHP_SELF"]) == 'admin_report.php'){ echo 'login-active'; }?>"><span class="fa fa-file"></span><span class="xn-text">Reports</span></a>
                     </li>
                     <li>
-                        <a href="<?php echo VW_ADMIN_ACTIVITY_LOG ; ?>"  class="<?php if (basename( $_SERVER["PHP_SELF"]) == 'activity_logs.php'){ echo 'login-active'; }?>"><span class="fa fa-list-alt"></span><span class="xn-text">Activity log</span></a>
+                        <a href="<?php echo VW_ADMIN_ACTIVITY_LOG; ?>"  class="<?php if (basename( $_SERVER["PHP_SELF"]) == 'activity_logs.php'){ echo 'login-active'; }?>"><span class="fa fa-list-alt"></span><span class="xn-text">Activity log</span></a>
+                    </li>
+                    <li>
+                        <a href="<?php echo VW_ADMIN_DRIVER_LIST; ?>"  class="<?php if (basename( $_SERVER["PHP_SELF"]) == 'driver_list_report.php'){ echo 'login-active'; }?>"><span class="fa fa-bars"></span><span class="xn-text">Driver List</span></a>
                     </li>
                 <?php
             } else if( isset( $_SESSION['user_id'] ) && isset( $_SESSION['user_type'] ) &&  $_SESSION['user_type'] == "driver"  ){	
@@ -175,7 +178,7 @@ $location = new location();
                         <a href="<?php echo VW_DRIVER_MYJOBS; ?>" class="<?php if (basename( $_SERVER["PHP_SELF"]) == 'my_jobs.php'){ echo 'login-active'; }?>"><span class="fa fa-truck"></span><span class="xn-text">My Jobs ( <?php echo $driver_my_jobs_count; ?> )</span></a>
                     </li>
                     <li>
-                        <a href="<?php echo VW_DRIVER_PICKUP_AMOUNT; ?>" class="<?php if (basename( $_SERVER["PHP_SELF"]) == 'driver_pickup_amt.php'){ echo 'login-active'; }?>"><span class="fa fa-dollar"></span><span class="xn-text">Driver Pick Up Amount</span></a>
+                        <a href="<?php echo VW_DRIVER_PICKUP_AMOUNT; ?>" class="<?php if (basename( $_SERVER["PHP_SELF"]) == 'driver_pickup_amt.php'){ echo 'login-active'; }?>"><span class="fa fa-dollar"></span><span class="xn-text">Driver Completions</span></a>
                     </li>
                     
                    

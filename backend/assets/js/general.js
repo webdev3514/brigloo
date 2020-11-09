@@ -1203,9 +1203,9 @@
 //    });
 
     
-    dt_pickup_list = $( '#pickup_list' ).DataTable({
-        "order": [[ 2, "desc" ]]
-    });
+    // dt_pickup_list = $( '#pickup_list' ).DataTable({
+    //     "order": [[ 2, "desc" ]]
+    // });
     
 })(jQuery);
 var geocoder,other_geocoder;

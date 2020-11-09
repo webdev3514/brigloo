@@ -1,6 +1,6 @@
 var ERR_AJAX = "Something went wrong!!! Please try again...";
 var ERR_BLANK_FORM = "Please Fill All the Required Fields...";
-var SUBDIR = '/';
+var SUBDIR = '/brigloo/';
 var UPLOAD_PATH = '/uploads/';
 var FRONT_URL = window.location.protocol + "//" + window.location.host + SUBDIR;
 var SERVER = window.location.protocol + '//' + window.location.host;
