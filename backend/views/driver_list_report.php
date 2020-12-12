@@ -84,7 +84,7 @@ $activity = new activity();
                                                 <td class="pickup_date_range"><?php echo date( "m-d-Y", strtotime( $val['dt_pickup'] ) );?></td>
                                                 <td class="pickup_amount"><?php echo isset( $val['fl_driver_pickup_amt'] ) && $val['fl_driver_pickup_amt'] > 0 ?  " $" . $val['fl_driver_pickup_amt'] : 0; ?></td>
                                                 
-                                                <td><button class="btn btn-success view_driver_detail action" name="view_driver_detail">View</button></td>
+                                                <td><button class="btn btn-success view_driver_detail action" data-user_id="<?php echo $value['in_user_id']; ?>" data-driver_id="<?php echo $value['in_driver_id']; ?>" name="view_driver_detail">View</button></td>
                                             </tr>
                                             <?php
                                             }
