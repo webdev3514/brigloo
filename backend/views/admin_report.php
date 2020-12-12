@@ -45,6 +45,7 @@ $activity = new activity();
                         global $mydb;
                         $all_jobdata = $pickup->get_job_data( 'admin' , '' , 'completed' );
                         if( isset( $all_jobdata ) && $all_jobdata != '' ){
+                            //print_r($all_jobdata);exit;
                             foreach( $all_jobdata as $job_key => $job_value ){
                                 $location_lat_long = $job_value['st_route'];
                                 if( isset( $job_value['in_bo_id'] ) && is_array( $job_value['in_bo_id'] ) ){

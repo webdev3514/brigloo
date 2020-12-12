@@ -1,5 +1,5 @@
 <?php
-define( 'BASE_DIR_ADMIN', 'brigloo' );
+define( 'BASE_DIR_ADMIN', 'brigloo-dev' );
 require_once $_SERVER['DOCUMENT_ROOT']. '/' . BASE_DIR_ADMIN . '/config/config.php';
 
 define( 'ADMIN_VIEW_DIR', 'views' );

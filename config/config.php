@@ -1,6 +1,6 @@
 <?php
 $SERVER_NAME = $_SERVER['SERVER_NAME'];
-define( 'BASE_DIR', 'brigloo' );
+define( 'BASE_DIR', 'brigloo-dev' );
 define( 'SITE_NAME', 'Cop Express' );
 define( 'DIR_SEPERATOR', '/' );
 define( 'CONFIG_DIR', 'config' );
