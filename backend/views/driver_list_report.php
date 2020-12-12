@@ -67,20 +67,23 @@ $activity = new activity();
                                     <tbody>
                                         <?php
                                         global $mydb;
-                                        $all_driver_pickup= $pickup->get_driver_pickup_amt_list();
-                                        if( isset( $all_driver_pickup ) && $all_driver_pickup != '' || $all_driver_pickup != 0 ){
-                                            if( isset( $all_driver_pickup['in_job_id'] ) ){
-                                                $all_driver_pickup = array( $all_driver_pickup );
+                                        $drivers = $mydb->get_all( TBL_DRIVER, '*', "", "");
+                                        if( isset( $drivers ) && $drivers != '' || $drivers != 0 ){
+                                            if( isset( $drivers['in_job_id'] ) ){
+                                                $drivers = array( $drivers );
                                             }
-                                            foreach( $all_driver_pickup as $key => $value ){
-                                                $driver_name = $user->get_user_data_by_key( $value['in_driver_id'], 'st_first_name' ); 
-                                                $in_license_no= $user->get_driver_data_by_key( $value['in_driver_id'], 'in_license_no' ); 
+                                            foreach( $drivers as $key => $value ){
+                                                $driver_name = $user->get_user_data_by_key( $value['in_user_id'], 'st_first_name' );
+                                                $driver_pickup= $pickup->get_driver_pickup_amt_list( $value['in_user_id'] );
+                                                $in_license_no= $user->get_driver_data_by_key( $value['in_user_id'], 'in_license_no' ); 
                                             ?>
                                             <tr class="job_<?php echo $value['in_job_id']; ?>">
                                                 <td><?php echo $driver_name;?></td>
-                                                <td><?php echo $value['location_count'];?></td>
-                                                <td class="pickup_date_range"><?php echo date( "m-d-Y", strtotime( $value['dt_pickup'] ) );?></td>
-                                                <td class="pickup_amount"><?php echo isset( $value['fl_driver_pickup_amt'] ) && $value['fl_driver_pickup_amt'] > 0 ?  " $" . $value['fl_driver_pickup_amt'] : 0; ?></td>
+                                                <?php //foreach( $driver_pickup as $key => $val ){ ?><?php //} ?>
+                                                <td><?php echo $val['location_count'];?></td>
+                                                <td class="pickup_date_range"><?php echo date( "m-d-Y", strtotime( $val['dt_pickup'] ) );?></td>
+                                                <td class="pickup_amount"><?php echo isset( $val['fl_driver_pickup_amt'] ) && $val['fl_driver_pickup_amt'] > 0 ?  " $" . $val['fl_driver_pickup_amt'] : 0; ?></td>
+                                                
                                                 <td><button class="btn btn-success view_driver_detail action" name="view_driver_detail">View</button></td>
                                             </tr>
                                             <?php
