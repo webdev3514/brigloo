@@ -67,7 +67,7 @@ $activity = new activity();
                                                     </p>
                                                 </div>
                                                 <div class="bo-item">
-                                                    <p> ID:
+                                                    <p>License ID:
                                                         <label>#<?php echo $in_license_no; ?></label>
                                                     </p>
                                                 </div>
