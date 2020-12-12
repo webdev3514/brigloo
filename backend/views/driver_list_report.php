@@ -45,63 +45,40 @@ $activity = new activity();
                     <div class="admin-main-report-list">
                         
                         <div class="panel-body">
-                            <div class="table-responsive">
-                                    
-                                <table id="driver_list_report" class="display" style="width:100%">
-                                    <thead>
-                                        <tr>
-                                            <th>Diver Name</th>
-                                            <th>Number Of Routes Completed</th>
-                                            <th>Date Range</th>
-                                            <th>Total Time Amount</th>
-                                            <th>Action</th>
-                                        </tr>
-                                        <tr>
-                                            <th class="brigloo_data_filter"></th>
-                                            <th class="brigloo_data_filter"></th>
-                                            <th class="brigloo_data_filter"></th>
-                                            <th class="brigloo_data_filter"></th>
-                                            <th></th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <?php
-                                        global $mydb;
-                                        $drivers = $mydb->get_all( TBL_DRIVER, '*', "", "");
-                                        if( isset( $drivers ) && $drivers != '' || $drivers != 0 ){
-                                            if( isset( $drivers['in_job_id'] ) ){
-                                                $drivers = array( $drivers );
-                                            }
-                                            foreach( $drivers as $key => $value ){
-                                                $driver_name = $user->get_user_data_by_key( $value['in_user_id'], 'st_first_name' );
-                                                $driver_pickup= $pickup->get_driver_pickup_amt_list( $value['in_user_id'] );
-                                                $in_license_no= $user->get_driver_data_by_key( $value['in_user_id'], 'in_license_no' ); 
-                                            ?>
-                                            <tr class="job_<?php echo $value['in_job_id']; ?>">
-                                                <td><?php echo $driver_name;?></td>
-                                                <?php //foreach( $driver_pickup as $key => $val ){ ?><?php //} ?>
-                                                <td><?php echo $val['location_count'];?></td>
-                                                <td class="pickup_date_range"><?php echo date( "m-d-Y", strtotime( $val['dt_pickup'] ) );?></td>
-                                                <td class="pickup_amount"><?php echo isset( $val['fl_driver_pickup_amt'] ) && $val['fl_driver_pickup_amt'] > 0 ?  " $" . $val['fl_driver_pickup_amt'] : 0; ?></td>
-                                                
-                                                <td><button class="btn btn-success view_driver_detail action" data-user_id="<?php echo $value['in_user_id']; ?>" data-driver_id="<?php echo $value['in_driver_id']; ?>" name="view_driver_detail">View</button></td>
-                                            </tr>
-                                            <?php
-                                            }
-                                        }
-                                        ?>
-                                    </tbody>
-                                    <tfoot>
-                                        <tr>
-                                            <th>Diver Name</th>
-                                            <th>Number Of Routes Completed</th>
-                                            <th>Date Range</th>
-                                            <th>Total Time Amount</th>
-                                            <th>Action</th>
-                                        </tr>
-                                    </tfoot>
-                                </table>
-
+                            <div class="div-responsive">
+                                <?php
+                                global $mydb;
+                                $drivers = $mydb->get_all( TBL_DRIVER, '*', "", "");
+                                if( isset( $drivers ) && $drivers != '' || $drivers != 0 ){
+                                    if( isset( $drivers['in_driver_id'] ) ){
+                                        $drivers = array( $drivers );
+                                    }
+                                    foreach( $drivers as $key => $value ){
+                                        $driver_name = $user->get_user_data_by_key( $value['in_user_id'], 'st_first_name' );
+                                        $driver_pickup= $pickup->get_driver_pickup_amt_list( $value['in_user_id'] );
+                                        $in_license_no= $user->get_driver_data_by_key( $value['in_user_id'], 'in_license_no' ); 
+                                    ?>
+                                    <div class="driver_<?php echo $value['in_driver_id']; ?>">
+                                        <div class="bo-list clo_<?php echo $value['in_driver_id']; ?>">
+                                            <div class="bo-box">
+                                                <div class="bo-item">
+                                                    <p>Driver Name:
+                                                        <label><?php echo $driver_name;?></label>
+                                                    </p>
+                                                </div>
+                                                <div class="bo-item">
+                                                    <p> ID:
+                                                        <label>#<?php echo $in_license_no; ?></label>
+                                                    </p>
+                                                </div>
+                                                <button class="btn btn-success view_driver_detail action" data-user_id="<?php echo $value['in_user_id']; ?>" data-driver_id="<?php echo $value['in_driver_id']; ?>" name="view_driver_detail">View</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <?php
+                                    }
+                                }
+                                ?>
                             </div>
                         </div>
 
@@ -129,34 +106,34 @@ include_once FL_LOGIN_FOOTER;
     $(document).ready(function() {
         
         $('#driver_list_report').DataTable( {
-            initComplete: function () {
-                this.api().columns().every( function () {
-                    var column = this;
-                    var select = $('<select><option value=""></option></select>')
-                        .on( 'change', function () {
-                            var val = $.fn.dataTable.util.escapeRegex(
-                                $(this).val()
-                            );
+            // initComplete: function () {
+            //     this.api().columns().every( function () {
+            //         var column = this;
+            //         var select = $('<select><option value=""></option></select>')
+            //             .on( 'change', function () {
+            //                 var val = $.fn.dataTable.util.escapeRegex(
+            //                     $(this).val()
+            //                 );
     
-                            column
-                                .search( val ? '^'+val+'$' : '', true, false )
-                                .draw();
-                        } );
+            //                 column
+            //                     .search( val ? '^'+val+'$' : '', true, false )
+            //                     .draw();
+            //             } );
 
-                        if( jQuery( column.header() ).hasClass( "brigloo_data_filter" ) ){
-                            jQuery( column.header() ).append( select );
-                        }
+            //             if( jQuery( column.header() ).hasClass( "brigloo_data_filter" ) ){
+            //                 jQuery( column.header() ).append( select );
+            //             }
     
-                    column.data().unique().sort().each( function ( d, j ) {
-                        select.append( '<option value="'+d+'">'+d+'</option>' )
-                    });
-                });
-            },
-            "deferRender": true,
-            "columnDefs": [ 
-                { targets: 'action', orderable: false },
-                { targets: 'action', searchable: false }
-            ]
+            //         column.data().unique().sort().each( function ( d, j ) {
+            //             select.append( '<option value="'+d+'">'+d+'</option>' )
+            //         });
+            //     });
+            // },
+            // "deferRender": true,
+            // "columnDefs": [ 
+            //     { targets: 'action', orderable: false },
+            //     { targets: 'action', searchable: false }
+            // ]
         });
 
     });

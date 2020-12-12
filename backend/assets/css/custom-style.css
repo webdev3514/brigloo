@@ -722,6 +722,9 @@ body {
     margin: 0 10px 0 0;
 }
 
+#driver_list_report tr:first-child, #driver_list_report tr:first-child th {
+    background: #ffffff !important;
+}
 
 /*design changes*/
 
